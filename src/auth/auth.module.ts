@@ -13,7 +13,7 @@ import { JwtModule } from '@nestjs/jwt';
     JwtModule.register({
       global: true, // доступен во всех модулях
       secret: process.env.JWT_SECRET,
-      signOptions: { expiresIn: '1d' }, // время жизни куки 1 день
+      signOptions: { expiresIn: '7d' }, // время жизни куки 7 день
     }),
   ],
   controllers: [AuthControllerV2, AuthControllerV1],
