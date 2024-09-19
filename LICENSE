@@ -1,0 +1,20 @@
+Egoza Passport
+
+Copyright © 2024 Egoza, Inc. All rights reserved.
+
+The software and files in this repository (collectively, "Software") are
+licensed under the Egoza TOS for use only with the relevant Egoza product(s).
+This license allows developers with acurrent active Egoza account to use and
+modify the authorized portions of the Software as needed for use only
+with the relevant Egoza product(s) through their Egoza account in accordance
+with the Egoza TOS.
+
+This license terminates automatically if a developer no longer
+has a Egoza account in good standing or breaches the Egoza TOS.
+For the license terms, please see the Egoza TOS at
+https://egoza.dev/legal/tos/ which incorporates the Egoza
+Product Terms at egoza.dev/legal/service-terms. If this Software is a
+SDK, modifications that change or interfere with marked portions of the code
+related to billing, accounting, or data collection are not authorized and the
+SDK sends limited de-identified location and usage data which is used in
+accordance with the Egoza TOS.

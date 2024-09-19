@@ -13,9 +13,21 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+enum Role {
+  ADMIN
+  USER
+  UNASSIGNED
+}
+
 model User {
-  id    Int    @id @default(autoincrement())
-  email String @unique
-  hash  String
-  salt  String
+  id Int @id @default(autoincrement())
+
+  email  String  @unique
+  hash   String
+  salt   String
+  role   Role[]  @default([USER])
+  active Boolean @default(true)
+
+  createdAt DateTime @default(now()) @db.Timestamptz(6)
+  updatedAt DateTime @updatedAt @db.Timestamptz(6)
 }
